@@ -4,26 +4,24 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Create</title>
+<title>Datenbankmanagementsystem für Dummies</title>
 </head>
-<body >
+<body>
 <form action="./Appl.jsp" method="get" >
 <table>
 <tr>
-<td>Name: <br><input type="text" name="TName" value="" /></td>
+<td><center>Registrieren</center></td>
 </tr>
 <tr>
-<td>Spaltenanzahl <br><input type="text" name="spalte" value="" /></td>
+<td>Email:<br><input type="text" name="email" value="" /></td>
 </tr>
 <tr>
-<td><input type="submit" name="erzeugen" value="erzeugen" /></td>
+<td>Passwort<br><input type="password" name="passwort" value="" /></td>
+</tr>
+<tr>
+<td><input type="submit" name="registrieren" value="registrieren" /></td>
 </tr>
 </table>
-
-
 </form>
-
-
-
 </body>
-</html> 
+</html>

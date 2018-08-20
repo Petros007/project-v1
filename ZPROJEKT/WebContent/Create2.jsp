@@ -7,10 +7,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 </head>
-<body>
+<body onload="">
 	<jsp:useBean id="gib" class="b.CreateBean" scope="session" />
 
-	<form action="./CreateAppl.jsp" method="get">
+	<form action="./Appl.jsp" method="get">
 		<table>
 
 		<jsp:getProperty property="p" name="gib"/>	
